@@ -187,10 +187,10 @@ const formatSeconds = (secends) => {
   return `${h}:${m}:${s}`
 }
 //获取上一天时间
-const getYesterday=()=>{
+const getYesterday = () => {
   let nowTimestamp = new Date().getTime();
-  let yesterdayTimestamp = nowTimestamp - 24*60*60*1000;
-  return formatePhpTime(yesterdayTimestamp / 1000,"YYYY-MM-DD")
+  let yesterdayTimestamp = nowTimestamp - 24 * 60 * 60 * 1000;
+  return formatePhpTime(yesterdayTimestamp / 1000, "YYYY-MM-DD")
 }
 
 
@@ -201,7 +201,7 @@ const isPhoneNumber = (tel) => {
 }
 
 module.exports = {
-  formatTime: formatTime,
+  formatTime: formatTime,  
   formatePhpTime: formatePhpTime,
   formatMoney: formatMoney,
   formatF2Y: formatF2Y,
