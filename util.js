@@ -4,7 +4,6 @@
  * type：需要输出的格式
  *
  */
-import config from "../config/config.js";
 const formatePhpTime = (timsta, type) => {
   let date = new Date(timsta * 1000); //获取一个时间对象  注意：如果是uinx时间戳记得乘于1000。比如php函数time()获得的时间戳就要乘于1000
   let Y = date.getFullYear() + '-';
@@ -114,45 +113,6 @@ const getHighLightArray = str => {
     }
   }
   return strArr;
-}
-
-/**
- * h5公共参数
- */
-const getUrlBaseQuery = url => {
-  if (url.indexOf("?") == -1) {
-    url += "?";
-  } else {
-    url += "&";
-  }
-  if (url.indexOf("appid=") == -1) {
-    url += "appid=" + config.HZAPPID;
-  } else {
-    url += "minix=0"; //占位
-  }
-  if (url.indexOf("channel=") == -1) {
-    url += "&channel=" + config.CHANNEL;
-  }
-  if (url.indexOf("site_id=") == -1) {
-    url += "&site_id=" + wx.getStorageSync("site_id");
-  }
-  let isLogin = wx.getStorageSync("isHzLogin")
-  if (isLogin) {
-    let user = wx.getStorageSync("hzUserInfo")
-    if (url.indexOf("mobile=") == -1) {
-      url += "&mobile=" + user.mobile;
-    }
-    if (url.indexOf("user_id=") == -1) {
-      url += "&user_id=" + user.user_id;
-    }
-  }
-  if (url.indexOf("login=") == -1) {
-    url += "&login=" + (isLogin ? "1" : "0");
-  }
-  if (url.indexOf("rel=") == -1) {
-    url += "&rel=mini";
-  }
-  return url;
 }
 
 const getTimestamp = (date) => {
