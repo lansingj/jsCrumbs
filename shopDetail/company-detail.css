@@ -1,0 +1,998 @@
+body{
+	padding-bottom: 1.3066666667rem;
+	background-color: #f5f5f5
+}
+
+/*------------------------------广告区域------------------------------*/
+.banner{
+	position: relative;
+	width:100%;
+	height:5.0666666667rem;
+	overflow: hidden;
+	background-color: #fff
+}
+
+
+/*----------轮播列表----------*/
+.lunbolist{
+	position: relative;
+	z-index: 1;
+	height: 5.0666666667rem;
+}
+.lunbolist li{
+	float: left;
+	width: 10rem;
+	height: 100%;
+	background-position: center;
+	background-size: cover
+}
+.lunbolist li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*----------轮播图片的数量----------*/
+.cd-pic-nums{
+	position: absolute;
+	z-index: 2;
+	right:0.4rem;
+	bottom: 1.0666666667rem;
+	display: inline-block;
+	width: 1.16rem;
+	height:.573333rem;
+	line-height: .573333rem;
+	text-align: center;
+	font-size: .373333rem;
+	color:#fff;
+	background-color: rgba(0,0,0,.5);
+	border-radius: .053333rem;	
+}
+
+
+
+/*------------------------------信息区域------------------------------*/
+.info{
+	position: relative;
+	z-index: 1;
+	padding-bottom: 0.5333333333rem;
+	margin: -0.8rem 0.1333333333rem 0;
+	background-color: #fff;
+	overflow: hidden;
+	box-shadow: 0 4px 10px rgba(0,0,0,.15) 
+}
+
+
+/*----------信息区域的标题----------*/
+.info h2{
+	height: 100%;
+	margin: 0.35rem 0.2666666667rem 0;
+	line-height: 0.7rem;
+	font-size: 0.5333333333rem;
+}
+
+
+/*----------信息区域的评分----------*/
+.info-score{
+	height: 21px;
+	margin: 0.16rem 0 0 0.2666666667rem;
+	overflow: hidden;
+}
+
+/*星级*/
+.star-wp{
+	float: left;
+	margin-top: 4px; 
+	vertical-align: 0.15rem; 
+	display: inline-block;
+	width:75px;
+	height: 13px;
+	background-image:url("img/star-wp.png");
+	background-repeat: no-repeat
+}
+.star-in{
+	display:block;
+	height:13px;
+	background-image:url("img/star-in.png");
+	background-repeat: no-repeat;
+}
+
+/*分数*/
+.info-score span{
+	float: left;
+	height: 100%;
+	margin-left: 0.08rem;
+	line-height: 21px;
+	font-size: 0.3733333333rem
+}
+
+
+/*----------付费明星商家标签----------*/
+.info .tag{
+	height: 0.4533333333rem;
+	margin: 0.16rem 2.64rem 0 0.2666666667rem;
+	overflow: hidden;
+}
+.info .tag span{
+	float: left;
+	height: 0.4533333333rem;
+	margin-left: 0.0933333333rem;
+	line-height: 0.475rem;
+	text-align: center;
+	font-size: 0.2666666667rem;
+	border-radius: 2px
+}
+.info .tag span:first-child{
+	padding: 0 0.1066666667rem;
+	margin-left: 0;
+	background-color: #fecb0f
+}
+.info .tag span:nth-child(2){
+	padding: 0 0.12rem 0 0.3866666667rem;
+	color: #fff;
+	background-image: url("./img/new-company-detail-hottag.png");
+	background-size:100% 100%; 
+}
+.info .tag em{
+	float: left;
+	height: 0.4533333333rem;
+	border: 1px solid #2b9b29;
+	padding: 0 0.1066666667rem;
+	margin-left: 0.0933333333rem;
+	line-height: 0.4533333333rem;
+	text-align: center;
+	font-size: 0.24rem;
+	color: #2b9b29;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+
+/*----------信息区域的按钮“预约商家”----------*/
+.info button{
+	position: absolute;
+	right: 0.2666666667rem;
+	bottom: 0.5333333333rem;
+	width: 2.1066666667rem;
+	height: 0.9333333333rem;
+	font-size: 0.3733333333rem;
+	color: #333335;
+	background-color: #fecb0f;
+	border-radius: 3px
+}
+
+
+
+/*------------------------------地址和服务特色区域------------------------------*/
+.address-feature{
+	padding: 0 0.4rem;
+	overflow: hidden;
+	background-color: #fff
+}
+
+
+/*----------地址----------*/
+.address{
+	position: relative;
+	border-bottom: 1px solid #f0f0f0;
+	padding:.266667rem 0 .275rem;
+}
+.address>h2{
+	margin: .266667rem 0 .133333rem;
+	font-size: 0.3733333333rem;
+	color:#333333;
+}
+.address>p{
+	color:#999999;
+	font-size: .32rem;
+}
+
+
+/*----------服务特色----------*/
+.feature{
+	padding-bottom: .15rem;
+	overflow: hidden
+}
+
+/*服务特色的标题*/
+.feature>h2{
+	position: relative;
+	margin-top: 0.2933333333rem;
+	font-size: 0.3733333333rem
+}
+.feature>h2:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 0.1333333333rem;
+	height: 0.2266666667rem;
+	margin: auto 0;
+	background: url("./img/company-detail-jiantou-right.png") center;
+	background-size: cover; 
+}
+
+/*服务特色的列表*/
+.feature ul{
+	margin-top: 0.32rem;
+	font-size: 0;
+}
+.feature ul li{
+	display: inline-block;
+	width: 33.3333333333%;
+	height: 0.4rem;
+	margin-bottom: 0.32rem;
+	line-height: 0.4rem;
+	font-size: 0.3733333333rem;
+	color: #666;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden
+}
+.feature ul li:before{
+	content: '';
+	display: inline-block;
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-right: 0.16rem;
+	background: url("img/company-detai-feature.png") center;
+	background-size: cover;
+	vertical-align: top;
+}
+
+
+
+/*------------------------------惠装保障服务------------------------------*/
+.guarantee{
+	padding: 0 0.4rem 0.5333333333rem;
+	margin-top: 0.2133333333rem;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+
+/*----------惠装保障服务的标题----------*/
+.guarantee>h2{
+	position: relative;
+	margin-top: 0.2933333333rem;
+	font-size: 0.3733333333rem
+}
+.guarantee>h2:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 0.1333333333rem;
+	height: 0.2266666667rem;
+	margin: auto 0;
+	background: url("./img/company-detail-jiantou-right.png") center;
+	background-size: cover; 
+}
+
+
+/*----------惠装保障服务的图片----------*/
+.guarantee img{
+	display: block;
+	width: 100%;
+	margin-top: 0.4266666667rem
+}
+
+
+
+/*------------------------------量房有礼------------------------------*/
+.gifts{
+	margin-top: 0.2133333333rem;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+
+/*----------量房有礼的儿子----------*/
+.gifts-child{
+	position: relative;
+	padding: 0 .8rem .4rem 1.0666666667rem;
+	margin:.533333rem 0 0 .4rem;
+	border-bottom: 1px solid #e5e5e5;
+}
+.gifts-child:last-child{border-bottom: none}
+.gifts-child:after{
+	content: '';
+	position: absolute;
+	top: 0.1066666667rem;
+	right: 0.4rem;
+	width: 0.1333333333rem;
+	height: 0.2266666667rem;
+	background: url("./img/company-detail-jiantou-right.png") center;
+	background-size: cover; 
+}
+.gifts-child h2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 0.3733333333rem;
+	color: #666666;
+}
+
+/*量房有礼儿子的列表*/
+.gifts-child ul{overflow:hidden}
+.gifts-child ul li{
+	display: flex;
+	margin-top: 0.2666666667rem;
+	overflow: hidden;
+}
+.gifts-child ul li:first-child{margin-top: 0}
+.gifts-child ul li .tag{
+	float: left;
+	flex: 1;
+	padding:.04rem 0;
+	text-align: center;
+	font-size: 0.2666666667rem;
+	color:#333333;
+	background-color: #fecb0f;
+	border-radius: 3px;
+}
+.gifts-child ul li .text{
+	float: left;
+	flex: 5;
+	margin-left: 0.2133333333rem;
+	font-size: 0.3733333333rem;
+	color:#333333;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
+
+
+/*------------------------------装修套餐------------------------------*/
+.setmeal{
+	padding-left: 0.4rem;
+	margin-top: 0.2133333333rem;
+	background-color: #fff;
+	overflow: hidden
+}
+
+.setmeal>h2{	
+	position: relative;
+	margin-top: 0.2933333333rem;
+	font-size: 0.3733333333rem
+}
+
+
+/*----------装修套餐的列表----------*/
+.setmeal-lists{
+	margin-top: 0.4rem;
+	overflow: hidden
+}
+
+/*列表的儿子*/
+.setmeal-lists .child{
+	min-height: 2.6666666667rem;
+	border-bottom: 1px solid #f0f0f0;
+	padding: 0.5333333333rem 0.4rem 0.5333333333rem 0;
+	overflow: hidden;
+}
+.setmeal-lists .child:first-child{padding-top: 0}
+.setmeal-lists .child:last-child{border-bottom: none}
+.setmeal-lists .img{/*列表儿子的图片*/
+	float: left;
+	width: 2.6666666667rem;
+	height: 2.6666666667rem;
+	background-size: cover;
+	background-position: center;
+}
+.setmeal-lists .right{/*列表儿子的右边*/
+	position: relative;
+	margin-left: 2.92rem;
+	overflow: hidden;
+}
+.setmeal-lists .right-title{
+	height: 0.68rem;
+	line-height: .68rem;
+	overflow: hidden;
+}
+.setmeal-lists .right-title>h3{
+	float: left;
+	width: 4.1rem;
+	height: 100%;
+	font-size: 0.48rem;
+	color:#333333;
+	overflow: hidden;
+	text-overflow:ellipsis; 
+	white-space:nowrap;
+}
+.setmeal-lists .right-title>span{
+	float: right;
+	height: 100%;
+	font-size: 0.32rem;
+	color:#38b236;
+}
+.setmeal-lists .right-price{
+	height: 0.68rem;
+	margin: 0.1rem 0 0.25rem;
+	overflow:hidden;
+}
+.setmeal-lists .right-price>p{
+	float: left;
+	height: 100%;
+	line-height: 0.68rem;
+	font-size: 0.32rem;
+	color:#ff4646;
+}
+.setmeal-lists .right-price>p em{font-size: 0.64rem}
+.setmeal-lists .right-price>del{
+	float: left;
+	height: 100%;
+	margin-left: 0.4rem;
+	line-height: .85rem;
+	font-size: 0.3733333333rem;
+	color:#999999
+}
+.setmeal-lists .right>p{
+	width:6.133333rem;
+	font-size: .32rem;
+	color:#666666;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2; 
+}
+
+
+
+/*------------------------------施工工地------------------------------*/
+.worksite{
+	padding:0 .4rem 0.2666666667rem;
+	margin-top: 0.2133333333rem;
+	background-color: #fff;
+	overflow: hidden;
+}
+.worksite>h2{
+	position: relative;
+	margin-top: 0.2933333333rem;
+	font-size: 0.3733333333rem
+}
+
+
+/*----------施工工地的swiper区域----------*/
+.worksite-swiper-container{
+	position: relative;
+	height: 4.1333333333rem;
+	padding-bottom: 0.1333333333rem;
+	margin-top: 0.4rem;
+	overflow:hidden;
+}
+
+/*施工工地swiper区域的列表*/
+.worksite-swiper-container ul{
+	height: 100%;
+	padding: 0 0.1333333333rem
+}
+.worksite-swiper-container ul li{
+	float: left;
+	width: 4.0rem;
+	margin-right: 0.2666666667rem;
+	border-radius: 6px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1)
+}
+.worksite-swiper-container ul li div{
+	position: relative;
+	height: 2.6666666667rem;
+	background-position: center;
+	background-size: cover;
+	border-radius: 6px 6px 0 0
+}
+.worksite-swiper-container ul li div em{
+	position: absolute;
+	z-index: 1;
+	right: 0.1333333333rem;
+	bottom: 0.1333333333rem;
+	height: .6rem;
+	padding: 0 0.2133333333rem;
+	line-height: .6rem;
+	font-size: 0.32rem;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: .6rem
+}
+.worksite-swiper-container ul li h3{
+	margin: 0.1866666667rem 0.1333333333rem 0;
+	font-size: 0.4rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow:hidden
+}
+.worksite-swiper-container ul li p{
+	margin: 0.0666666667rem 0.1333333333rem 0;
+	font-size: 0.32rem;
+	color: #666;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow:hidden
+}
+
+
+
+/*------------------------------业主评论------------------------------*/
+.comment{
+	padding:0 .4rem 0.2666666667rem;
+	margin-top: 0.2133333333rem;
+	background-color: #fff;
+	overflow: hidden
+}
+.comment>h2{
+	position: relative;
+	margin-top: 0.2933333333rem;
+	font-size: 0.3733333333rem
+}
+
+
+/*----------业主评论的口碑----------*/
+.comment-wordofmouth{
+	margin: 0.4533333333rem 0 .4rem;
+	overflow: hidden;
+}
+
+/*业主评论口碑的分数*/
+.comment-score{
+	float: left;
+	padding-right: 0.4rem;  
+	text-align: center;
+}
+.comment-score p{
+	font-size: 0.32rem;
+	color: #fecb0f;
+}
+.comment-score p em{
+	margin-right: 0.0533333333rem;
+	font-size: 0.96rem;
+	font-weight: bolder;
+}
+
+/*业主评论口碑的标签*/
+.wordofmouth-tags{
+	border-left: 1px solid #e6e6e6;
+	padding-left: 0.4rem;
+	overflow: hidden;
+}
+.wordofmouth-tags>li{
+	float: left;
+	height: 0.5333333333rem;
+	padding: 0 0.2666666667rem;
+	margin: 0 0.2666666667rem 0.2666666667rem 0;
+	line-height: 0.5333333333rem;
+	text-align: center;
+	font-size: 0.32rem;
+	background-color: #fff5cf;
+	border-radius: 0.5333333333rem
+}
+
+
+/*----------业主评论的列表----------*/
+.commentlist{overflow: hidden}
+
+/*业主评论列表的儿子*/
+.commentlist-child{
+	border-bottom: 1px solid #f0f0f0;
+	padding: 0.4rem 0 0.32rem;
+	overflow: hidden;
+}
+.commentlist-child:last-child{border-bottom: none}
+.commentlist-child .head{/*儿子的头部*/
+	position: relative;
+	height: 0.5333333333rem;
+	overflow: hidden
+}
+.commentlist-child .head>i{
+	float: left;
+	width: 0.5333333333rem;
+	height: 0.5333333333rem;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%
+}
+.commentlist-child .head>p{
+	float: left;
+	line-height: 0.5333333333rem;
+	margin-left: 0.1733333333rem;
+	font-size: 0.32rem;
+	color: #666
+}
+.commentlist-child .head>div{
+	position: absolute;
+	top: -0.08rem;
+	right: 0;
+	bottom: 0;
+    width: 88px;
+    height: 11px;
+    margin: auto 0;
+    background: url("http://hzimg.huizhuang.com/static/m/assets/img/product-stars.png") 0 -15px/88px 26px;
+}
+.commentlist-child .head>div i{
+	display: block;
+    height: 11px;
+    background: url("http://hzimg.huizhuang.com/static/m/assets/img/product-stars.png");
+    background-size: 88px 26px;
+}
+.commentlist-child .content{/*评论内容*/
+	margin-top:.266667rem;
+	font-size: 0.3733333333rem;
+}
+.commentlist-child .imgdiv{/*儿子的图片区域*/
+	position: relative;
+	height: 2.6666666667rem;
+	margin-top:.306667rem;
+	overflow: hidden;
+}
+.commentlist-child .imgdiv ul{
+	height: 100%;
+	overflow: hidden
+}
+.commentlist-child .imgdiv ul li{
+	float: left;
+	width: 2.6666666667rem;
+	height:2.6666666667rem;
+	margin-right: 0.1066666667rem;
+	background-position: center;
+	background-size: cover;
+	cursor: pointer
+}
+.commentlist-child .imgdiv>span{
+	position: absolute;
+	right: 0.0533333333rem;
+	bottom: 0.0533333333rem;
+	padding: 0.0266666667rem 0.1333333333rem;
+	font-size: 0.2666666667rem;
+	color: #ffffff;
+	background-color: rgba(0, 0, 0,.5);
+	border-radius: 0.4rem;
+}
+.commentlist-child .bottom{/*儿子的底部*/
+	margin-top: 0.2933333333rem;
+	font-size: 0.32rem;
+	overflow: hidden;
+}
+.commentlist-child .bottom>a{
+	float: left;
+	color:#6f8dc4
+}
+.commentlist-child .bottom>p{
+	float: right;
+	color: #999;
+}
+
+
+/*----------业主评价的“查看更多”----------*/
+.comment-more{
+	margin: 0.6666666667rem 0;
+	overflow: hidden;
+}
+.comment-more>a{
+	display: block;
+	width: 2.6666666667rem;
+	height: 0.8rem;
+	border: 1px solid #ff6c38;
+	margin: 0 auto;
+	line-height: 0.8rem;
+	text-align: center;
+	font-size: 0.3733333333rem;
+	color:#ff6c38;
+	border-radius: 0.8533333333rem;
+	box-sizing: border-box;
+}
+
+
+
+/*------------------------------附近邻居预约------------------------------*/
+.neighbor{
+	padding: 0 0.4rem 0.4rem;
+	margin-top: 0.2133333333rem;
+	background-color: #fff;
+	overflow: hidden
+}
+.neighbor>h2{	
+	position: relative;
+	margin-top: 0.2933333333rem;
+	font-size: 0.3733333333rem
+}
+
+
+/*----------附近邻居预约的列表----------*/
+.neighbor-list{margin-top: 0.25rem}
+
+/*列表的儿子*/
+.neighbor-list>li{
+	position: relative;
+	margin-top: .25rem;
+	overflow: hidden
+}
+.neighbor-list>li:first-child{margin-top: 0}
+.neighbor-userhead{/*儿子的用户头像*/
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 0.5333333333rem;
+	height: 0.5333333333rem;
+	margin: auto 0
+}
+.neighbor-userhead i{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url("//hzimg.huizhuang.com/lib/img/bighead.png");
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%
+}
+.neighbor-info{/*儿子的信息*/
+	width: 6.5rem;
+	margin-left: 0.7066666667rem;
+	font-size: 0.32rem
+}
+.neighbor-info span{
+	display: block;
+	color: #999
+}
+.neighbor-list>li>time{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	height: 0.48rem;
+	margin: auto 0;
+	line-height: 0.48rem;
+	font-size: 0.32rem;
+	color:#999999;
+}
+
+
+
+/*------------------------------服务特色的弹框------------------------------*/
+.feature-dialog{
+	position: fixed;
+	z-index: 9999;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0,.5);	
+}
+
+
+/*----------服务特色弹框的主要内容区域----------*/
+.feature-dialog-body{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 0.2rem;
+	background-color: #fff;
+	overflow: auto;
+}
+
+/*主要内容区域的标题*/
+.feature-dialog-body>h2{
+	text-align: center;
+	font-size: 0.48rem;
+}
+
+/*主要内容区域的说明*/
+.feature-dialog-body>p{
+	padding-left:.4rem;
+	margin-top:.2rem;
+	font-size: .373333rem;
+	color:#2b9b29;
+}
+
+/*主要内容区域的列表*/
+.feature-dialog-body ul{margin-top: 0.25rem}
+.feature-dialog-body ul>li{
+	padding: 0.1rem 0;
+	border-bottom: 1px solid #f0f0f0;
+	overflow: hidden
+}
+.feature-dialog-body ul>li:last-child{border-bottom: none}
+.feature-dialog-body ul>li h3{
+	float: left;
+	width:3.266667rem;
+	margin-left:.4rem;
+	font-size: 0.35rem;
+}
+.feature-dialog-body ul>li p{
+	padding-right:.4rem;
+	margin-left: 3.666667rem;
+	text-align: left;
+	font-size: 0.35rem;
+	color:#666;
+}
+
+/*主要内容区域的按钮区域*/
+.feature-dialog-body .btndiv{
+	height: 1.1333333333rem;
+	margin-top: 0.2rem;
+	background-color:#fecb0f
+}
+.feature-dialog-body>.btndiv button{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-size: 0.4533333333rem;
+	background-color:#fecb0f
+}
+
+
+
+/*------------------------------量房有礼的弹框------------------------------*/
+.gifts-dialog{
+	position: fixed;
+	z-index: 9999;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0,.5);	
+}
+
+
+/*----------服务特色弹框的主要内容区域----------*/
+.gifts-dialog-body{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 0.4rem;
+	background-color: #fff;
+	overflow: auto;
+}
+
+/*主要内容区域的标题*/
+.gifts-dialog-body>h2{
+	text-align: center;
+	font-size: 0.48rem;
+}
+
+/*主要内容区域的列表*/
+.gifts-dialog-body ul{margin-top: 0.533333rem}
+.gifts-dialog-body ul>li{
+	display: flex;
+	padding: 0.2666666667rem 0.4rem;
+	border-bottom: 1px solid #f0f0f0;
+	overflow: hidden
+}
+.gifts-dialog-body ul>li:last-child{border-bottom: none}
+.gifts-dialog-body ul>li span{
+	flex: 1;
+	width:3.266667rem;
+	height: .5rem;
+	padding: .04rem 0;
+	line-height: .5rem;
+    text-align: center;
+    font-size: 0.2666666667rem;
+    color: #333333;
+    background-color: #fecb0f;
+    border-radius: 3px;
+}
+.gifts-dialog-body ul>li p{
+	flex: 5;
+	padding-right:.4rem;
+	margin-left: 0.2133333333rem;
+	text-align: left;
+	font-size: 0.3733333333rem;
+	color:#666;
+}
+
+/*主要内容区域的按钮区域*/
+.gifts-dialog-body .btndiv{
+	height: 1.1333333333rem;
+	margin-top: 0.4rem;
+	background-color:#fecb0f
+}
+.gifts-dialog-body>.btndiv button{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-size: 0.4533333333rem;
+	background-color:#fecb0f
+}
+
+
+
+/*------------------------------导航------------------------------*/
+.nav{
+    display: flex;
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.3066666667rem;
+    background-color: #fff;
+    box-shadow: 0 -1px 5px rgba(0,0,0,.1)
+}
+.nav li{
+    flex: 1;
+    position: relative;
+    text-align: center;
+    font-size: 0.2666666667rem;
+    color: #313133
+}
+.nav li:before{
+    content: '';
+    display: block;
+    height: 0.5866666667rem;
+    margin: 0.16rem auto 0.04rem;
+    background-position: center;
+    background-size: cover
+}
+.nav li:first-child i{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+    width: 1.0666666667rem;
+    height: 1.0666666667rem;
+    margin: auto;
+    background: url("img/company-info-nav1.png") center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2)
+}
+.nav li:first-child:before{display: none}
+.nav li:nth-child(2):before{
+    width: 0.5866666667rem;
+    background-image: url("img/company-info-nav2.png")
+}
+.nav li:nth-child(3):before{
+    width: 0.4533333333rem;
+    background-image: url("img/company-info-nav3.png")
+}
+.nav li.active:nth-child(2):before{background-image: url("img/company-info-nav2-active.png")}
+.nav li.active:nth-child(3):before{background-image: url("img/company-info-nav3-active.png")}
+
+.nav li a {
+    color:#313131;
+}
+
+/*------------------------------返回微信小程序首页------------------------------*/
+.tomini{
+	position: fixed;
+	z-index: 2;
+	right: 0.3733333333rem;
+	bottom: 2.56rem;
+	width: 1.1733333333rem;
+	height: 1.1733333333rem;
+	font-size: 0;
+	background: url("img/company-detail-tominiindex.png") center;
+	background-size: cover
+}
+
+
+
+/*------------------------------插件相关------------------------------*/
+.pswp__counter {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 44px;
+	font-size: 16px;
+	line-height: 44px;
+	color: #FFF;
+	opacity: .75;
+	padding: 0 10px;
+}
+.pswp__button--close {
+	float: right;
+	width: 44px;
+	height: 44px;
+	background: url(http://app.huizhuang.com/static/style/img/default-skin.png) 0 -44px;
+	opacity: .75
+}
+.loading-area{text-align: center}

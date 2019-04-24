@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>店铺详情</title>
+    <script type="text/javascript" src="https://hzimg.huizhuang.com/lib/jquery-2.1.0.min.js"></script>
+    <script src="https://hzimg.huizhuang.com/lib/swiper-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://hzimg.huizhuang.com/lib/swiper-3.3.1.min.css" />
+    <link rel="stylesheet" href="https://hzimg.huizhuang.com/static/hzone_v3/global_v2.min.css">
+    <link rel="stylesheet" href="company-detail.css">
+</head>
+
+<body>
+    <div class="company-detail" id="root">
+        <!------------------------------ 顶部banner开始 ------------------------------>
+        <div class="banner swiper-container" @click="isWeixin('company_album')">
+            <ul class="lunbolist swiper-wrapper">
+                <li class="swiper-slide"
+                    style="background-image: url(https://hzapp-10006163.image.myqcloud.com/%2BlubYZrHqt0Bc/2BKjVdYw%3D%3D?imageView2/2/w/750/format/yjpeg/q/80)">
+                </li>
+                <li class="swiper-slide"
+                    style="background-image:url(https://hzapp-10006163.image.myqcloud.com/RT8gb5dtFTqB7maoCuTDnA%3D%3D?imageView2/2/w/750/format/yjpeg/q/80)">
+                </li>
+                <li class="swiper-slide"
+                    style="background-image:url(https://hzapp-10006163.image.myqcloud.com/Rdj5RJhfc8Ji4P57Wta8YA%3D%3D?imageView2/2/w/750/format/yjpeg/q/80)">
+                </li>
+            </ul>
+            <span class="cd-pic-nums">3图</span>
+        </div>
+
+        <div class="info">
+            <h2>惠天下装饰</h2>
+            <div class="info-score">
+                <div class="star-wp">
+                    <div class="star-in" style="width: 98%;"></div>
+                </div> <span>4.9分</span>
+            </div>
+            <div class="tag"> <em>新人红包</em><em>实景展厅</em><em>VR实景设计</em></div>
+        </div>
+
+        <div class="address-feature">
+            <div class="address">
+                <h2>新诚信大厦二环路北一段53号新诚信大厦4-5楼</h2>
+                <p>金牛区<span>，</span>距我5.84km</p>
+            </div>
+            <div class="feature">
+                <h2>服务特色</h2>
+                <ul>
+                    <li>新人红包</li>
+                    <li>实景展厅</li>
+                    <li>VR实景设计</li>
+                    <li>延期赔付</li>
+                    <li>到店接送</li>
+                    <li>甲醛检测</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="gifts">
+            <div class="gifts-child">
+                <h2>优惠</h2>
+                <ul>
+                    <li><span class="tag">量房礼</span>
+                        <p class="text">免费上门量房，量房后即送精品陶瓷餐具礼品一份,到店即可领取</p>
+                    </li>
+                    <li><span class="tag">到店礼</span>
+                        <p class="text">预约到店，即送价值2580元净水器兑换券一张礼品，到店即可领取</p>
+                    </li>
+                    <li><span class="tag">签约礼</span>
+                        <p class="text">业主签订合同，即送砸金蛋赢电器一次，3P柜式空调等您来砸！</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="setmeal">
+            <h2>装修套餐</h2>
+            <ul class="setmeal-lists">
+                <li class="child">
+                    <div class="img"
+                        style="background-image: url(https://hzapp-10006163.image.myqcloud.com/hzapp1525850496?imageView2/2/w/240/format/yjpeg/q/80);">
+                    </div>
+                    <div class="right">
+                        <div class="right-title">
+                            <h3>二手房改造旧房翻新套餐</h3> <span>8人预约</span>
+                        </div>
+                        <div class="right-price">
+                            <p>
+                                ￥
+                                <em>570</em>
+                                /㎡
+                            </p> <del>￥650/㎡</del>
+                        </div>
+                        <p>专业解决二手房和旧房的翻新以及改造出现的各种问题</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="comment">
+            <h2>业主评价（共48条）</h2>
+            <div class="comment-wordofmouth">
+                <div class="comment-score">
+                    <p><em>4.9</em>分</p>
+                </div>
+                <ul class="wordofmouth-tags">
+                    <li>报价合理</li>
+                    <li>施工好</li>
+                    <li>零投诉</li>
+                    <li>服务好</li>
+                    <li>值得推荐</li>
+                </ul>
+            </div>
+            <ul class="commentlist">
+                <li class="commentlist-child">
+                    <div class="head"><i
+                            style="background-image: url(&quot;https://hzyzq-10006163.image.myqcloud.com/0a0b4e34-e985-4c93-90cf-e2ae6b077702?imageView2/5/w/40&quot;);"></i>
+                        <p>185*****867<span>（历）</span></p>
+                        <div class="cd-comment-stars"><i style="width: 100%;"></i></div>
+                    </div>
+                    <p class="content">每一个工作都值得肯定</p>
+                    <div class="imgdiv">
+                        <ul class="wrap-media">
+                            <li date-url="https://hzapp-10006163.image.myqcloud.com/4d297d0d-54fa-44f9-9876-eae7d5de3cbf"
+                                class="cd-comment-img-item"
+                                style="background-image: url(&quot;https://hzapp-10006163.image.myqcloud.com/4d297d0d-54fa-44f9-9876-eae7d5de3cbf?imageView2/2/w/100/format/yjpeg/q/80&quot;);">
+                            </li>
+                            <li date-url="https://hzapp-10006163.image.myqcloud.com/ddeae26b-7a0f-4ead-b682-ba0279536ba6"
+                                class="cd-comment-img-item"
+                                style="background-image: url(&quot;https://hzapp-10006163.image.myqcloud.com/ddeae26b-7a0f-4ead-b682-ba0279536ba6?imageView2/2/w/100/format/yjpeg/q/80&quot;);">
+                            </li>
+                            <li date-url="https://hzapp-10006163.image.myqcloud.com/692d7016-05e5-41ae-a568-aa6d6c31b1ff"
+                                class="cd-comment-img-item"
+                                style="background-image: url(&quot;https://hzapp-10006163.image.myqcloud.com/692d7016-05e5-41ae-a568-aa6d6c31b1ff?imageView2/2/w/100/format/yjpeg/q/80&quot;);">
+                            </li>
+                        </ul> <span>共3张</span>
+                    </div>
+                    <div class="bottom"><a>锦江区 【竣工阶段】</a>
+                        <p>2019-02-01</p>
+                    </div>
+                </li>
+                <li class="commentlist-child">
+                    <div class="head"><i
+                            style="background-image: url(&quot;https://hzyzq-10006163.image.myqcloud.com/0a0b4e34-e985-4c93-90cf-e2ae6b077702?imageView2/5/w/40&quot;);"></i>
+                        <p>185*****867<span>（历）</span></p>
+                        <div class="cd-comment-stars"><i style="width: 100%;"></i></div>
+                    </div>
+                    <p class="content">带客热情，报价合理，出图快，认真负责！希望继续努力，非常满意，无可挑剔！</p>
+                    <div class="imgdiv">
+                        <ul class="wrap-media">
+                            <li date-url="https://hzapp-10006163.image.myqcloud.com/1f234dd6-fec6-40f7-9c71-71f8a1bed34b"
+                                class="cd-comment-img-item"
+                                style="background-image: url(https://hzapp-10006163.image.myqcloud.com/1f234dd6-fec6-40f7-9c71-71f8a1bed34b?imageView2/2/w/100/format/yjpeg/q/80);">
+                            </li>
+                            <li date-url="https://hzapp-10006163.image.myqcloud.com/dd3447ec-f2c2-4e85-a370-fe33174675aa"
+                                class="cd-comment-img-item"
+                                style="background-image: url(https://hzapp-10006163.image.myqcloud.com/dd3447ec-f2c2-4e85-a370-fe33174675aa?imageView2/2/w/100/format/yjpeg/q/80&);">
+                            </li>
+                            <li date-url="https://hzapp-10006163.image.myqcloud.com/7b9c5c55-a79e-4f22-887e-fb2b6fa7bacb"
+                                class="cd-comment-img-item"
+                                style="background-image: url(https://hzapp-10006163.image.myqcloud.com/7b9c5c55-a79e-4f22-887e-fb2b6fa7bacb?imageView2/2/w/100/format/yjpeg/q/80);">
+                            </li>
+                        </ul> <span>共3张</span>
+                    </div>
+                    <div class="bottom"><a>锦江区 【泥木阶段】</a>
+                        <p>2019-01-30</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="comment-more"><a>查看更多</a></div>
+        </div>
+
+        <div class="neighbor">
+            <h2>附近邻居购买</h2>
+            <ul class="neighbor-list">
+                <li>
+                    <div class="neighbor-userhead"><i
+                            style="background-image: url(https://hzyzq-10006163.image.myqcloud.com/15022be2-5fd6-43d3-898b-90b6925b354f?imageView2/5/w/100);"></i>
+                    </div>
+                    <div class="neighbor-info">
+                        <p>189****3636（闾先生）</p> <span>双桥路南六街社区</span>
+                    </div> <time>2019-04-24</time>
+                </li>
+                <li>
+                    <div class="neighbor-userhead"><i
+                            style="background-image: url(https://hzyzq-10006163.image.myqcloud.com/ac87f397-d378-4cf6-a16b-30fd501b60b4?imageView2/5/w/100);"></i>
+                    </div>
+                    <div class="neighbor-info">
+                        <p>187****2030（顾女士）</p> <span>阳光柏金家私</span>
+                    </div> <time>2019-04-23</time>
+                </li>
+                <li>
+                    <div class="neighbor-userhead"><i
+                            style="background-image: url(https://hzyzq-10006163.image.myqcloud.com/15022be2-5fd6-43d3-898b-90b6925b354f?imageView2/5/w/100);"></i>
+                    </div>
+                    <div class="neighbor-info">
+                        <p>130****5589（乐先生）</p> <span>双桥路南六街社区</span>
+                    </div> <time>2019-04-23</time>
+                </li>
+                <li>
+                    <div class="neighbor-userhead"><i
+                            style="background-image: url(https://hzyzq-10006163.image.myqcloud.com/ac87f397-d378-4cf6-a16b-30fd501b60b4?imageView2/5/w/100);"></i>
+                    </div>
+                    <div class="neighbor-info">
+                        <p>188****7161（尤先生）</p> <span>阳光柏金家私</span>
+                    </div> <time>2019-04-22</time>
+                </li>
+
+                <li>
+                    <div class="neighbor-userhead"><i
+                            style="background-image: url(https://hzyzq-10006163.image.myqcloud.com/15022be2-5fd6-43d3-898b-90b6925b354f?imageView2/5/w/100);"></i>
+                    </div>
+                    <div class="neighbor-info">
+                        <p>159****1986（赵先生）</p> <span>阳光柏金家私</span>
+                    </div> <time>2019-04-18</time>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="nav">
+            <li><i
+                    style="background-image: url(https://hzapp-10006163.image.myqcloud.com/MQYXr8dkteaQY9QM5/3iqQ%3D%3D?imageView2/5/w/50);"></i>
+            </li>
+            <li><a href="designcase.html">设计案例</a>
+            </li>
+            <li><a href="info.html">商家简介</a></li>
+        </ul>
+
+    </div>
+</body>
+
+</html>

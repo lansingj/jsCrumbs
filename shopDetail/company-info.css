@@ -1,0 +1,276 @@
+body{padding-bottom: 1.3066666667rem}
+
+/*------------------------------基本信息------------------------------*/
+.basic{
+    position: relative;
+	padding: 0.5333333333rem 0 0.5333333333rem;
+    margin: 0 0.4rem;
+	border-bottom:1px solid #E6E6E6;
+}
+
+
+/*----------基本信息的主要部分----------*/
+.basic-main{
+    margin-right: 2.16rem;
+    overflow: hidden
+}
+
+/*主要部分的标题*/
+.basic-main h3{
+    font-size: 0.4266666667rem;
+    color:#333;
+}
+
+/*主要部分的地址*/
+.basic .address{
+    margin-top: 0.2rem;
+    font-size: 0.32rem;
+    color: #666;
+}
+.basic .address i{
+    color: #ccc;
+    vertical-align: middle
+}
+
+/*主要部分的列表*/
+.basic-main ul{
+    margin-top: 0.2rem;
+    overflow: hidden
+}
+.basic-main ul li{
+    float: left;
+    width: 50%;
+    margin-bottom: 0.2rem;
+    font-size: 0.32rem;
+    color: #666;  
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.basic-main ul li span{margin-left: 0.0666666667rem}
+
+
+/*----------基本信息的公司logo----------*/
+.basic .c-logo{
+    position: absolute;
+    top: 0.5333333333rem;
+    right: 0;
+    width: 1.76rem;
+}
+
+
+/*----------基本信息的公司介绍----------*/
+.explain{
+    padding: 0.2rem 0.3rem;
+    margin-top: 0.16rem;
+    background-color: #F5F5F5;
+}
+.explain p{
+    line-height: 1.8;
+    font-size: 0.32rem;
+    color:#666;
+}
+.btn-more{
+    display: block;
+    padding: 0.2rem 0.4rem;
+    margin: 0 auto;
+}
+.btn-more span{
+    display: block;
+    width: .426667rem;
+    height: .226667rem;
+    background-image: url("img/btnmore@2x.png");
+    background-size:cover; 
+    overflow: hidden;
+}
+
+
+/*----------基本信息的公司访谈和品牌故事----------*/
+.interview-story{
+    height: 3.44rem;
+    margin-top: 0.4rem;
+}
+.interview-story .child{
+    position: relative;
+    width: 4.4666666667rem;
+    height: 100%;
+    background-position: center;
+    background-size: cover
+}
+.interview-story .child:first-child{float: left}
+.interview-story .child:nth-child(2){float: right}
+.interview-story .child p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.6133333333rem;
+    line-height: 0.6133333333rem;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #fff;
+    background-color: rgba(0,0,0,.3)
+}
+.interview-story .child .has_video{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 0.7466666667rem;
+    height: 0.7466666667rem;
+    margin: auto;
+    background-color: rgba(0,0,0,.4);
+    border-radius: 50%
+}
+.interview-story .child .has_video:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0.2133333333rem;
+    width: 0;
+    height: 0;
+    border-width: 0.1333333333rem 0.2133333333rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    margin: auto
+}
+
+
+
+
+
+
+
+/*------------------------------公司服务保障------------------------------*/
+.service{
+    position: relative;
+    border-bottom:1px solid #E6E6E6;
+    padding: 0.5333333333rem 0 0.5333333333rem;
+    margin: 0 0.4rem;
+}
+.service h3{font-size: 0.3733333333rem}
+.service p{
+    margin-top:0.3rem;
+    line-height: 1.8;
+    font-size:0.32rem;
+    color:#666;
+}
+
+
+
+/*------------------------------服务团队------------------------------*/
+.team{
+    position: relative;
+    padding: 0.5333333333rem 0 0.5333333333rem;
+    margin: 0 0.4rem;
+    border-bottom:1px solid #E6E6E6;
+}
+
+
+/*----------服务团队的列表----------*/
+.team ul{
+    margin: 0.3rem 0;
+    overflow: hidden
+}
+
+/*服务团队列表的儿子*/
+.team li{
+    float: left;
+    width: 22%;
+    margin-left: 3%;
+    margin-bottom: 0.4rem;
+}
+.team li:nth-child(4n-3){margin-left: 0}
+.team li div{
+    position: relative;
+    width: 100%;
+    height: 2rem;
+    background-position: center;
+    background-size: cover;
+}
+.team li>div p{
+    position: absolute;
+    z-index: 10;
+    bottom:0;
+    left: 0;
+    width:100%;
+    height: 0.48rem;
+    padding-left: 0.1333333333rem; 
+    line-height: 0.48rem;
+    font-size: 0.32rem;
+    color:#fff;
+    background:-webkit-linear-gradient(left,rgba(0,0,0,0.35) ,rgba(0,0,0,0));
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+.team .name{
+    margin-top:0.2rem;
+    font-size:0.32rem;
+    color:#333;
+}
+.hidden{
+    height: 3rem;
+    overflow: hidden
+}
+
+
+
+/*------------------------------导航------------------------------*/
+.nav{
+    display: flex;
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.3066666667rem;
+    background-color: #fff;
+    box-shadow: 0 -1px 5px rgba(0,0,0,.1)
+}
+.nav li{
+    flex: 1;
+    text-align: center;
+    font-size: 0.2666666667rem;
+    color: #313133
+}
+.nav li:before{
+    content: '';
+    display: block;
+    height: 0.5866666667rem;
+    margin: 0.16rem auto 0.04rem;
+    background-position: center;
+    background-size: cover
+}
+.nav li:first-child:before{
+    width: 0.6266666667rem;
+    background-image: url("img/company-info-nav1.png")
+}
+.nav li:nth-child(2):before{
+    width: 0.5866666667rem;
+    background-image: url("img/company-info-nav2.png")
+}
+.nav li:nth-child(3):before{
+    width: 0.4533333333rem;
+    background-image: url("img/company-info-nav3.png")
+}
+.nav li.active:nth-child(2):before{background-image: url("img/company-info-nav2-active.png")}
+.nav li.active:nth-child(3):before{background-image: url("img/company-info-nav3-active.png")}
+
+
+
+/*------------------------------返回微信小程序首页------------------------------*/
+.tomini{
+    position: fixed;
+    z-index: 2;
+    right: 0.3733333333rem;
+    bottom: 2.56rem;
+    width: 1.1733333333rem;
+    height: 1.1733333333rem;
+    font-size: 0;
+    background: url("img/company-detail-tominiindex.png") center;
+    background-size: cover
+}
