@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/building/building",
+    "pages/shop/shop",
+    "pages/coupon/coupon"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序测试",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#6aa058",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/tabhome.png",
+        "selectedIconPath": "image/tabhome-active.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商家",
+        "iconPath": "image/tabshop.png",
+        "selectedIconPath": "image/tabshop-active.png"
+      },
+      {
+        "pagePath": "pages/building/building",
+        "text": "商品",
+        "iconPath": "image/tabgoods.png",
+        "selectedIconPath": "image/tabgoods-active.png"
+      },
+      {
+        "pagePath": "pages/building/building",
+        "text": "我的",
+        "iconPath": "image/tabmy.png",
+        "selectedIconPath": "image/tabmy-active.png"
+      }
+    ]
+  }
+}

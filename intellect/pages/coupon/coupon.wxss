@@ -1,0 +1,121 @@
+.available-list{
+	padding: 0 30rpx 30rpx;
+	margin-top: 31rpx
+}
+
+/*列表的儿子*/
+.available-list .child{margin-top: 29rpx}
+.available-list .child:first-child{margin-top: 0}
+.available-list .child .top{/*儿子的上部分*/
+	position: relative;
+	height: 168rpx;
+	border: 1px solid #d9d9d9;
+	background-color: #fff;
+	border-radius: 12rpx;
+	overflow: hidden;
+}
+
+.available-list .child.active .top:after{
+	background: url("https://hzimg.huizhuang.com/mini/pay-redenvelopes-icon.png") center;
+	background-size: cover;
+}
+.available-list .top .amount{
+	position: relative;
+	float: left;
+	width: 267rpx;
+	height: 168rpx;
+	background: url("https://hzimg.huizhuang.com/mini/pay-redenvelopes-bg.png") center;
+	background-size: cover;
+    border-radius: 12rpx 0 0 12rpx;
+    text-align: center;
+    margin-right:30rpx;
+}
+.available-list .amount view{
+	display: block;
+	margin-top: 4rpx;
+	text-align: center;
+	font-size: 54rpx;
+	color: #fff
+}
+.available-list .amount text{
+	margin-left: 5rpx;
+	font-size: 90rpx;
+	color: #fff
+}
+.available-list .child .top>view>text{
+	padding:0 5rpx;
+	height: 28rpx;
+	text-align: center;
+	font-size: 18rpx;
+	color: #ff9c00;
+	background-color: rgba(255,255,255,.9);
+	border-radius: 6rpx;
+}
+.available-list .name view{
+	font-size: 32rpx;
+    color: #1ab0a0;
+    padding:20rpx 20rpx 20rpx 0;
+}
+.available-list .name button{
+    width:160rpx;
+    height: 50rpx;
+    line-height: 45rpx;
+    background-color:#fff;
+    border:1px solid #1ab0a0;
+    color:#1ab0a0;
+    border-radius: 20rpx;
+    margin:0;
+}
+.available-list .child .bottom{/*儿子的下部分*/
+	position: relative;
+	border: 1px solid #d9d9d9;
+	padding: 0 20rpx;
+	margin-top: -1px;
+	background-color: #fff;
+	border-radius: 12rpx;
+	overflow: hidden;
+}
+.available-list .child .bottom .show{height: 60rpx}
+.available-list .child .bottom .show text{
+	line-height: 60rpx;
+	font-size: 22rpx;
+}
+.available-list .child .bottom .show text:first-child{
+	float: left;
+	color: #666;
+}
+.available-list .child .bottom .show text:nth-child(2){
+	float: right;
+	color: #999;
+}
+.available-list .child .bottom .show text:nth-child(2):after{
+	content: '';
+	display: inline-block;
+	width: 12rpx;
+	height: 22rpx;
+	margin: 18rpx 0 0 12rpx;
+	background: url("https://hzimg.huizhuang.com/mini/pay-waitpay-jiantou.png") center;
+	background-size: cover;
+	vertical-align: top;
+	transform:rotate(90deg);
+}
+.available-list .child .bottom.hideshow .show text:nth-child(2):after{transform:rotate(-90deg)}
+.available-list .child .bottom.seedetail .show text:nth-child(2):after{transform:rotate(-90deg)}
+.available-list .child .bottom .hide{
+	display: none;
+	padding-bottom: 18rpx
+}
+.available-list .child .bottom.hideshow .hide{display: block}
+.available-list .child .bottom.seedetail .hide{display: block}
+.available-list .child .bottom .hide text{
+	display: block;
+	margin-top: 5rpx;
+	font-size: 22rpx;
+}
+.available-list .child .bottom .hide text:first-child{margin-top: 0}
+.available-list .child .bottom .hide text:before{
+	content: '•';
+	margin-right: 6rpx;
+	font-size: 20rpx
+}
+

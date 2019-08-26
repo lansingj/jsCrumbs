@@ -1,0 +1,16 @@
+/**app.wxss**/
+@import "font/iconfont.wxss";
+
+text, button, view, form, input, label, textarea, navigator {
+  font-size: 28rpx;
+  color: #1a1a1a;
+}
+
+.tc {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+

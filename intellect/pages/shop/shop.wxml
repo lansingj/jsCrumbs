@@ -1,0 +1,93 @@
+<view class="page-shop">
+    <view class="choiceness">
+        <view class="h2">特色高品质商家等你发现</view>
+        <swiper next-margin="200rpx" easing-function="linear" class="banner" circular="true" >
+            <swiper-item>
+                <image mode="aspectFill" src="../../image/banner1.jpg" class="scroll-view-item"></image>
+            </swiper-item>
+            <swiper-item>
+                <image mode="aspectFill" src="../../image/banner3.jpg" class="scroll-view-item"></image>
+            </swiper-item>
+            <swiper-item>
+                <image mode="aspectFill" src="../../image/banner2.jpg" class="scroll-view-item"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="sorts">
+        <!-- <swiper display-multiple-items="5">
+            <swiper-item wx:for="{{sorts}}" wx:key="item.id" bindtap="tabClick"  data-id="{{item.id}}">
+                <view class="name {{activeIndex == index ? 'active':''}}" >{{item.name}}</view>
+            </swiper-item>
+        </swiper> -->
+        <view class="name {{activeIndex == index ? 'active':''}}" wx:for="{{tab}}" wx:key="item.id" bindtap="tabClick" data-id="{{item.id}}">{{item.name}}</view>
+    </view>
+    <view class="shop">
+        <view class="top-item">
+            <image mode="aspectFill" src="../../image/logo1.jpg"></image>
+            <view class="content">
+                <view class="name">润居屋普信店</view>
+                <view class="sall"><text class="iconfont iconlocation"></text>二环路西一段希冀广场3楼</view>
+            </view>
+        </view>
+        <view class="bot-item">
+            <view class="goods">
+                <image mode="aspectFill" src="https://t00img.yangkeduo.com/goods/images/2019-05-07/d89057f865add0748557cd0d3643b612.jpeg@750w_1l_50Q.src"></image>
+                <view class="name">素色双人四件套</view>
+            </view>
+             <view class="goods">
+                <image mode="aspectFill" src="https://t00img.yangkeduo.com/goods/images/2019-05-06/02d658a71c4e947277b322012cb5b4c4.jpeg@750w_1l_50Q.src"></image>
+                <view class="name">实木换鞋凳</view>
+            </view>
+             <view class="goods">
+                <image mode="aspectFill" src="https://img.alicdn.com/bao/uploaded/i4/12844594/O1CN011jo5ypdzUfFzjG7_!!12844594.jpg_600x600q90.jpg_.webp"></image>
+                <view class="name">实木休闲摇椅</view>
+            </view>
+        </view>
+    </view>
+     <view class="shop">
+        <view class="top-item">
+            <image mode="aspectFill" src="../../image/logo3.jpg"></image>
+            <view class="content">
+                <view class="name">TOTO宏联专卖店</view>
+                <view class="sall"><text class="iconfont iconlocation"></text>北富森建材2号馆一楼北侧</view>
+            </view>
+        </view>
+        <view class="bot-item">
+            <view class="goods">
+                <image mode="aspectFill" src="../../image/s6.jpg"></image>
+                <view class="name">简约台上盆圆形</view>
+            </view>
+             <view class="goods">
+                <image mode="aspectFill" src="../../image/s5.webp"></image>
+                <view class="name">手持淋浴喷头</view>
+            </view>
+             <view class="goods">
+                <image mode="aspectFill" src="../../image/s3.webp"></image>
+                <view class="name">简约台上盆方形</view>
+            </view>
+        </view>
+    </view>
+     <view class="shop">
+        <view class="top-item">
+            <image mode="aspectFill" src="../../image/logo2.jpg"></image>
+            <view class="content">
+                <view class="name">华润精选专卖</view>
+                <view class="sall"><text class="iconfont iconlocation"></text>复原新路家具城2栋1103</view>
+            </view>
+        </view>
+        <view class="bot-item">
+            <view class="goods">
+                <image mode="aspectFill" src="../../image/logo4.jpg"></image>
+                <view class="name">手工羊毛毯</view>
+            </view>
+             <view class="goods">
+                <image mode="aspectFill" src="../../image/logo6.jpg"></image>
+                <view class="name">北欧简洁吊灯</view>
+            </view>
+             <view class="goods">
+                <image mode="aspectFill" src="../../image/logo7.jpg"></image>
+                <view class="name">实木盖储物盒</view>
+            </view>
+        </view>
+    </view>
+</view>

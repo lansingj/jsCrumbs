@@ -1,0 +1,6 @@
+/* pages/building.wxss */
+view{
+  text-align: center;
+  margin:80rpx 0;
+  color:#999;
+}

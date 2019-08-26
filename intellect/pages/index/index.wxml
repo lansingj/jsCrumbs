@@ -1,0 +1,269 @@
+<!-- index.wxml -->
+<view class="container">
+  <swiper indicator-dots="true" indicator-color="rgba(255,255,255,0.5)" circular="true" indicator-active-color="#fff" autoplay="true" class="banner">
+   <swiper-item>
+      <image mode="aspectFill" src="../../image/s1.webp" class="scroll-view-item"></image>
+    </swiper-item>
+    <swiper-item>
+      <image mode="aspectFill" src="https://cdn.pinduoduo.com/assets/img/cat_textiles_v1.jpg" class="scroll-view-item"></image>
+    </swiper-item>
+    <swiper-item>
+      <image mode="aspectFill" src="../../image/s7.jpg" class="scroll-view-item"></image>
+    </swiper-item>
+  </swiper>
+  <view class="cart mod-pannel">
+    <view class="mod-title">购物车商品</view>
+    <navigator url="/pages/building/building" class="link-more">更多<text class="iconfont iconarrow-right"></text></navigator>
+    <view class="list">
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo1.jpg"></image>
+        <view class="content">
+          <view class="name">芝华士头等舱双人沙发</view>
+          <text class="sall">2个商家促销</text>
+          <text class="time">1天前添加</text>
+        </view>
+      </view>
+
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo2.jpg"></image>
+        <view class="content">
+          <view class="name">蒙娜丽莎水印系大理石瓷砖120x60</view>
+          <text class="sall">2个商家促销</text>
+          <text class="time">2天前添加</text>
+        </view>
+      </view>
+
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo3.jpg"></image>
+        <view class="content">
+          <view class="name">法恩莎豪华浴缸入墙式花洒套装</view>
+          <text class="sall">5个商家促销</text>
+          <text class="time">3天前添加</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="shops mod-pannel">
+    <view class="mod-title">最近浏览商家</view>
+    <navigator url="/pages/building/building" class="link-more">更多<text class="iconfont iconarrow-right"></text></navigator>
+    <view class="list">
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo4.jpg"></image>
+        <view class="content">
+          <view class="name">芝华士沙发</view>
+          <text class="address">南富森2号馆3楼312</text>
+          <text class="sall">2项促销</text>
+          <text class="time">1天前添加</text>
+        </view>
+      </view>
+
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo5.jpg"></image>
+        <view class="content">
+          <view class="name">蒙娜丽莎瓷砖</view>
+          <text class="address">北富森1号馆3楼312</text>
+          <text class="sall">2项促销</text>
+          <text class="time">2天前添加</text>
+        </view>
+      </view>
+
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo6.jpg"></image>
+        <view class="content">
+          <view class="name">法恩莎卫浴</view>
+          <text class="address">红星美凯龙14-303</text>
+          <text class="sall">1项促销</text>
+          <text class="time">3天前添加</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="vip">
+    <image src='../../image/vip.jpg' mode="aspectFill"></image>
+  </view>
+  <view class="shops mod-pannel">
+
+    <view class="mod-title">正在打折商品</view>
+    <navigator url="/pages/building/building" class="link-more">更多<text class="iconfont iconarrow-right"></text></navigator>
+    <view class="list">
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo10.jpg"></image>
+        <view class="content">
+          <view class="name">芝华士头等舱双人沙发</view>
+          <text class="sall">南门富森店</text>
+          <text class="time">13人浏览过</text>
+        </view>
+      </view>
+
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo6.jpg"></image>
+        <view class="content">
+          <view class="name">蒙娜丽莎水印系大理石瓷砖120x60</view>
+          <text class="sall">红星美凯龙14-303</text>
+          <text class="time">13人浏览过</text>
+        </view>
+      </view>
+
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo3.jpg"></image>
+        <view class="content">
+          <view class="name">法恩莎豪华浴缸入墙式花洒套装</view>
+          <text class="sall">城南建材市场</text>
+          <text class="time">8人浏览过</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="sort">
+    <view class="sort-first">
+      <view class="sort-item">
+        <view class="icon iconcook iconfont"></view>
+        <view class="title">厨房</view>
+      </view>
+      <view class="sort-item">
+        <view class="icon iconfont iconwoshi"></view>
+        <view class="title">卧室</view>
+      </view>
+      <view class="sort-item">
+        <view class="icon iconfont iconmen"></view>
+        <view class="title">木门</view>
+      </view>
+      <view class="sort-item">
+        <view class="icon iconfont iconweiyujian"></view>
+        <view class="title">卫浴</view>
+      </view>
+      <view class="sort-item">
+        <view class="icon iconfont iconkell"></view>
+        <view class="title">客餐厅</view>
+      </view>
+    </view>
+    <view class="sort-second">
+      <view class="sort-item">
+        <view class="icon iconfont iconm2"></view>
+        <view class="title">整装</view>
+      </view>
+      <view class="sort-item">
+        <view class="icon iconfont iconhouse"></view>
+        <view class="title">全屋</view>
+      </view>
+      <view class="sort-item">
+        <view class="icon iconfont iconbook"></view>
+        <view class="title">书房</view>
+      </view>
+      <view class="sort-item">
+        <view class="icon iconfont iconmuma"></view>
+        <view class="title">儿童房</view>
+      </view>
+      <view class="sort-item">
+        <view class="icon iconfont icondianpu"></view>
+        <view class="title">门店</view>
+      </view>
+    </view>
+  </view>
+  <view class="shops mod-pannel">
+    <view class="mod-title">商家上门安装家居直播</view>
+    <navigator url="/pages/building/building" class="link-more">更多<text class="iconfont iconarrow-right"></text></navigator>
+    <view class="list">
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo7.jpg"></image>
+        <view class="content">
+          <view class="name">城南名著</view>
+          <text class="sall">定制衣柜</text>
+          <text class="time">13人浏览过</text>
+        </view>
+      </view>
+
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo8.jpg"></image>
+        <view class="content">
+          <view class="name">万科魅力之城</view>
+          <text class="sall">吊顶安装</text>
+          <text class="time">8人浏览过</text>
+        </view>
+      </view>
+
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo9.jpg"></image>
+        <view class="content">
+          <view class="name">恒大天府半岛</view>
+          <text class="sall">定制橱柜</text>
+          <text class="time">8人浏览过</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="shops-browse mod-pannel">
+    <view class="mod-title">最多人访问店铺</view>
+    <navigator url="/pages/building/building" class="link-more">更多<text class="iconfont iconarrow-right"></text></navigator>
+    <view class="list">
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo4.jpg"></image>
+        <view class="content">
+          <view class="name">芝华士沙发</view>
+          <text class="address">南富森2号馆3楼312</text>
+          <text class="sall">2项促销</text>
+        </view>
+      </view>
+
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo5.jpg"></image>
+        <view class="content">
+          <view class="name">蒙娜丽莎瓷砖</view>
+          <text class="address">北富森1号馆3楼312</text>
+          <text class="sall">2项促销</text>
+        </view>
+      </view>
+
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo6.jpg"></image>
+        <view class="content">
+          <view class="name">法恩莎卫浴</view>
+          <text class="address">红星美凯龙14-303</text>
+          <text class="sall">1项促销</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="hot">
+    <image src='../../image/hot.jpg' mode="aspectFill"></image>
+  </view>
+
+   <view class="shops mod-pannel">
+
+    <view class="mod-title">最多人访问商品</view>
+    <navigator url="/pages/building/building" class="link-more">更多<text class="iconfont iconarrow-right"></text></navigator>
+    <view class="list">
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo10.jpg"></image>
+        <view class="content">
+          <view class="name">芝华士头等舱双人沙发</view>
+          <text class="sall">南门富森店</text>
+          <text class="time">13人浏览过</text>
+        </view>
+      </view>
+
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo6.jpg"></image>
+        <view class="content">
+          <view class="name">蒙娜丽莎水印系大理石瓷砖120x60</view>
+          <text class="sall">红星美凯龙14-303</text>
+          <text class="time">13人浏览过</text>
+        </view>
+      </view>
+
+      <view class="list-item">
+        <image mode="aspectFill" src="../../image/logo3.jpg"></image>
+        <view class="content">
+          <view class="name">法恩莎豪华浴缸入墙式花洒套装</view>
+          <text class="sall">城南建材市场</text>
+          <text class="time">8人浏览过</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,25 @@
+<view class="page-coupon">
+    <view class="available-list">
+		<view class="child" wx:for="{{couponInfo}}" wx:key="{{item.id}}">
+			<view class="top" data-index="{{index}}" data-obj="{{item}}" bindtap="selectCoupon">
+				<view class="amount">
+					<view>¥<text>{{item.amount}}</text></view>
+					<text wx:if="{{item.des}}">{{item.des}}</text>
+                </view> 
+                <view class="name">
+                    <view>{{item.name}}</view>
+                    <button class="btn" type="default">
+                        立即领取
+                    </button>
+                </view>				
+			</view>
+			<view class="bottom">
+				<view class="show">
+					<text>有效期至：{{item.end_time}}</text>
+				</view>			
+			</view>
+		</view>
+
+	</view>
+
+</view>
